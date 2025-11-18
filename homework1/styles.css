@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    background: linear-gradient(to bottom, #6f42c1, #00c4cc);
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.auth-buttons button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.auth-buttons .signup {
+    background-color: #8a2be2;
+    color: white;
+    margin-right: 10px;
+}
+
+.auth-buttons .login {
+    background-color: white;
+    color: black;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hero-buttons button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.hero-buttons .start-designing {
+    background-color: white;
+    color: black;
+}
+
+.hero-buttons .explore-launches {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
